@@ -1,6 +1,6 @@
 describe("Shopping Cart", () => {
   it("can remove items from cart", () => {
-    cy.visit("localhost:8888");
+    cy.visit("/");
 
     cy.get(".Item").should("have.length", 3);
 
